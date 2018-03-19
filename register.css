@@ -1,0 +1,29 @@
+body {
+    background-image: url("/images/couple_walk_top_travel_64555_1366x768.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+label {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+h1 {
+    color: green;
+}
+p {
+    color: red;
+}
+.btn {
+    background-color: yellow;
+    float: right;
+    color: green;
+    font-weight: bold;
+}
+#p {
+    color: brown;
+}

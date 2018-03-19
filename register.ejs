@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title%></title>
+    <link rel="stylesheet" href="/stylesheets/register.css">
+
+</head>
+<body>
+<form name="registration" method="post" action="/data">
+    <h1>Registration Form</h1>
+    <p>All fields filled compulsary.</p>
+    <table>
+        <tr>
+            <td>
+                <label>First name</label>
+            </td>
+            <td>
+                <input type="text" name="fname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Last name</label>
+            </td>
+            <td>
+                <input type="text" name="lname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Password</label>
+            </td>
+            <td>
+                <input type="Password" name="upass">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Confirm Password</label>
+            </td>
+            <td>
+                <input type="Password" name="cpass">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Email</label>
+            </td>
+            <td>
+                <input type="Email" name="uemail">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Address</label>
+            </td>
+            <td>
+                <input type="text" name="uadd">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Gender</label>
+            </td>
+            <td>
+                Male<input type="radio" name="ugen">
+                Female<input type="radio" name="ugen">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Date of Birth</label>
+            </td>
+            <td>
+                <input type="Date" name="udob">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Mobile No.</label>
+            </td>
+            <td>
+                <input type="text" name="umob">
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input class="btn" type="submit" name="submit" value="Submit">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p id="p">If you already registered please <a href="/login">Login</a></p>
+            </td>
+        </tr>
+    </table>
+
+</form>
+
+
+
+</body>
+</html>

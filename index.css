@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#header1{
+    height: 5%;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
+    float: right;
+    margin: 0.5%;
+    font-weight: bold;
+    color: black;
+}
+
+#imgcontent{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+p{
+    height: 200px;
+    width: 435px;
+}
+
+#container1{
+
+}
+
+section{
+    float: left;
+    margin: 2.5px;
+    border: 2px solid black;
+}
+
+h1{
+    height: 50px;
+    width: 435px;
+    background-color: gray;
+    margin-bottom: 2.5px;
+    text-align: center;
+
+}
+
+h2{
+    color: yellow;
+    float: left;
+}
